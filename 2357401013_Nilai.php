@@ -1,5 +1,4 @@
 <?php
-// Data array nilai siswa
 $data_nilai = [
     ["nama" => "Asep", "nilai" => 78],
     ["nama" => "Icha", "nilai" => 89],
@@ -12,7 +11,6 @@ $data_nilai = [
     ["nama" => "Osi", "nilai" => 83]
 ];
 
-// Fungsi untuk menentukan grade
 function getGrade($nilai) {
     if ($nilai >= 85) return 'A';
     elseif ($nilai >= 75) return 'B';
